@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-image: url('number-game.png') ;
+    background-repeat: no-repeat;
+   background-size: cover;
+   height:150px;
+}
+*{
+    text-align: center;
+}
+.container{
+    border-color: blueviolet;
+    border: groove;
+    height:250px;
+    width:250px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+h4{
+    color:rgb(21, 0, 255);
+    background-color: yellow;
+    width:230px;
+    margin-left: 10px;
+    animation: animate 
+    2.5s linear infinite;
+ }
+ h2{
+    
+    background-image: linear-gradient(white,pink);
+ }
+ @keyframes animate {
+     0% {
+         opacity: 0;
+     }
+ 
+     50% {
+         opacity: 0.7;
+     }
+ 
+     100% {
+         opacity: 0;
+     }
+ }
+
+p{
+    color: rgb(230, 25, 25);
+    background-color: aqua;
+    width:180px;
+    margin-left: 30px;
+}
